@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Επωνυμία Εταιρείας | Επίσημη Ιστοσελίδα</title>
+    <meta name="description" content="Επίσημη ιστοσελίδα της εταιρείας [ΕΠΩΝΥΜΙΑ].">
+    
+    <style>
+        /* Reset & Base Styles */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
+        
+        /* Layout */
+        header { background-color: #2c3e50; color: #fff; padding: 2rem 1rem; text-align: center; }
+        main { flex: 1; padding: 3rem 1rem; max-width: 800px; margin: 0 auto; text-align: center; }
+        footer { background-color: #f8f9fa; padding: 2rem 1rem; font-size: 0.9rem; border-top: 1px solid #e9ecef; }
+        
+        /* Typography */
+        h1 { margin-bottom: 0.5rem; }
+        h2 { font-size: 1.5rem; margin-bottom: 1rem; color: #2c3e50; }
+        p { margin-bottom: 1rem; }
+        
+        /* Legal Section styling */
+        .legal-container { max-width: 1000px; margin: 0 auto; text-align: center; }
+        .legal-info { list-style: none; margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; }
+        .legal-info li { background: #fff; padding: 0.8rem 1rem; border: 1px solid #ddd; border-radius: 4px; display: inline-block; text-align: left; }
+        
+        /* Ειδικό στυλ για μεγάλα πεδία (π.χ. Εταίροι) για να πιάνουν όλο το πλάτος αν χρειαστεί */
+        .full-width { width: 100%; max-width: 800px; text-align: center !important; }
+        
+        .legal-label { font-weight: bold; color: #2c3e50; display: block; font-size: 0.85rem; margin-bottom: 2px;}
+        .legal-value { color: #555; }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 id="company-name">[ΠΛΗΡΗΣ ΕΠΩΝΥΜΙΑ ΕΤΑΙΡΕΙΑΣ]</h1>
+        <p>[ΔΙΑΚΡΙΤΙΚΟΣ ΤΙΤΛΟΣ]</p> </header>
+
+    <main>
+        <h2>Καλώς ήρθατε</h2>
+        <p>
+            Η εταιρεία μας δραστηριοποιείται στον χώρο [ΚΛΑΔΟΣ/ΔΡΑΣΤΗΡΙΟΤΗΤΑ] με συνέπεια και επαγγελματισμό.
+            Βρισκόμαστε στη διάθεσή σας για την άμεση εξυπηρέτησή σας.
+        </p>
+    </main>
+
+    <footer>
+        <div class="legal-container">
+            <h3>Στοιχεία Δημοσιότητας</h3>
+            <p>Σύμφωνα με τον Ν. 4919/2022</p>
+            
+            <ul class="legal-info">
+                <li>
+                    <span class="legal-label">Επωνυμία:</span> 
+                    <span class="legal-value" id="legal-name">[ΠΛΗΡΗΣ ΕΠΩΝΥΜΙΑ]</span>
+                </li>
+                <li>
+                    <span class="legal-label">Διακριτικός Τίτλος:</span> 
+                    <span class="legal-value">[ΤΙΤΛΟΣ]</span>
+                </li>
+                <li>
+                    <span class="legal-label">Έδρα:</span> 
+                    <span class="legal-value">[Οδός, Αριθμός, ΤΚ, Πόλη]</span>
+                </li>
+                <li>
+                    <span class="legal-label">Τηλέφωνο:</span> 
+                    <span class="legal-value">[210xxxxxxx]</span>
+                </li>
+                <li>
+                    <span class="legal-label">Email:</span> 
+                    <span class="legal-value">[info@company.gr]</span>
+                </li>
+
+                <li>
+                    <span class="legal-label">ΑΦΜ:</span> 
+                    <span class="legal-value">[000000000]</span>
+                </li>
+                <li>
+                    <span class="legal-label">ΔΟΥ:</span> 
+                    <span class="legal-value">[π.χ. Α' Αθηνών]</span>
+                </li>
+                <li>
+                    <span class="legal-label">Αρ. ΓΕΜΗ:</span> 
+                    <span class="legal-value">[000000000000]</span>
+                </li>
+
+                <li>
+                    <span class="legal-label">Εταιρικό Κεφάλαιο:</span> 
+                    <span class="legal-value">[π.χ. 10.000,00€]</span>
+                </li>
+                <li>
+                    <span class="legal-label">Εγγυητικές Εισφορές:</span> 
+                    <span class="legal-value">[Ποσό ή "Δεν υπάρχουν"]</span>
+                </li>
+
+                <li class="full-width">
+                    <span class="legal-label">Δραστηριότητες (ΚΑΔ):</span> 
+                    <span class="legal-value">
+                        <strong>Κύρια:</strong> [Κωδικός - Περιγραφή]<br>
+                        <strong>Δευτερεύουσες:</strong> [Κωδικός - Περιγραφή]
+                    </span>
+                </li>
+
+                <li class="full-width">
+                    <span class="legal-label">Διαχειριστής:</span> 
+                    <span class="legal-value">[Ονοματεπώνυμο]</span>
+                </li>
+                
+                <li class="full-width">
+                    <span class="legal-label">Εταίροι:</span> 
+                    <span class="legal-value">
+                        1. <strong>[Ονοματεπώνυμο]</strong> - Διεύθυνση: [Οδός, Αριθμός, Περιοχή] - Εισφορές: [Κατηγορία]<br>
+                        2. <strong>[Ονοματεπώνυμο]</strong> - Διεύθυνση: [Οδός, Αριθμός, Περιοχή] - Εισφορές: [Κατηγορία]
+                    </span>
+                </li>
+            </ul>
+            
+            <br>
+            <p style="font-size: 0.8rem; color: #888;">&copy; <script>document.write(new Date().getFullYear())</script> Με επιφύλαξη παντός δικαιώματος.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
